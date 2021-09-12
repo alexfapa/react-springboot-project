@@ -169,13 +169,15 @@ html, body {
 ```
 - **COMMIT: Basic static components**
 ### Passo 5: adicionar gráficos estáticos
-- Apex Charts
-```bash
+- Apex Charts - Fonte => https://apexcharts.com/react-chart-demos
+```bash instalação:
 yarn add apexcharts
 yarn add react-apexcharts
 ```
+
+
 - BarChart
-```javascript
+``` adicionar no componente o javascript abaixo antes do return
 const options = {
     plotOptions: {
         bar: {
