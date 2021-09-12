@@ -199,7 +199,7 @@ const mockData = {
 };
 ```
 - DonutChart
-```javascript
+```adicionar no componente o javascript abaixo antes do return
 const mockData = {
     series: [477138, 499928, 444867, 220426, 473088],
     labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
