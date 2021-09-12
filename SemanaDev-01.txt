@@ -67,10 +67,12 @@ git push -u origin main
 ```
 ### Passo 2: "limpar" o projeto ReactJS
 - Limpar projeto ReactJS / tsconfig.json
-- Arquivo _redirects
-```
+- Adicionar o arquivo _redirects e dentro dele inserir o texto abaixo:
+
 /* /index.html 200
-```
+
+
+
 - **COMMIT: Project clean**
 ### Passo 3: adicionar Bootstrap e CSS ao projeto
 - Bootstrap
