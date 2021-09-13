@@ -334,7 +334,7 @@ java.runtime.version=11
 ### Passo 7: Implantação no Heroku
 - Criar app no Heroku
 - Provisionar banco Postgres
-- Definir variável APP_PROFILE=prod
+- Definir variável APP_PROFILE=prod  //para fazer isso vai na aba Settings no Heroku. Revel Config Vars
 - Conectar ao banco via pgAdmin
 - Criar seed do banco
 
@@ -343,7 +343,7 @@ heroku -v
 heroku login
 heroku git:remote -a <nome-do-app>
 git remote -v
-git subtree push --prefix backend heroku main
+git subtree push --prefix backend heroku main -- o texto "backend" é o nome da pasta do projeto
 ```
 
 - **PARABÉNS!**
