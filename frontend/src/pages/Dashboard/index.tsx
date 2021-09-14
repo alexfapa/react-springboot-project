@@ -16,13 +16,13 @@ const Dashboard = () => {
                         <BarChart />
                     </div>
                     <div className="col-sm-6">
-                        <h5 className="text-center text-secondary">Taxa de sucesso (%)</h5>
+                        <h5 className="text-center text-secondary">Todas as vendas</h5>
                         <DonutChart />
                     </div>
                 </div>
 
                 <div className="py-3">
-                    <h2 className="text-primary">Todas Vendas</h2>
+                    <h2 className="text-primary">Tabela Vendas</h2>
                 </div>
 
                 <DataTable />
