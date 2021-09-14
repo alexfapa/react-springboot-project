@@ -76,7 +76,7 @@ Executar algo na instanciação ou destruição do componente, observar estado
 
 - Definir função auxiliar round:
 ```javascript
-export const round = (value: number, precision: number) => {
+Inexport const round = (value: number, precision: number) => {
     var multiplier = Math.pow(10, precision || 0);
     return Math.round(value * multiplier) / multiplier;
 }
