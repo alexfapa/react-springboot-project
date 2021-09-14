@@ -115,6 +115,7 @@ Props
 Argumentos que um componente React pode receber
 ```
 
+
 - Criar componente Pagination
 ```html
 <div className="row d-flex justify-content-center">
@@ -135,6 +136,19 @@ Argumentos que um componente React pode receber
 ```
 
 - **COMMIT: Pagination**
+
+==================================Mudar a url de acesso no netlify==================================================
+1 - Pegar a url no Heroku
+2 - Acessar o projeto no netlify
+3 - Clica em Site Setings localizado abaixo do nome do projeto na parte superior
+4 - No menu do lado esquerdo procure por Build & Deploy
+5 - Procure pela opção Environment variables e clique em Edit Variables
+6 - Para o react no campo key é obrigatório ter o nome REAC_APP e ponha outro underline para colocar um nome específico para a variável. Ex: 'REACT_APP_BACKEND_URL'
+7 - No campo value insira o link do backend(Obs.: não deixar '/' no final) 
+
+Observação: não esquecer de verificar o arquivo /frontend/public/redirects que deve estar com o valor "/* /index.html 200"
+
+
 
 ## **PARABÉNS!**
 
